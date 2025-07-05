@@ -1,0 +1,8 @@
+name = "vpn2"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "d3374371b5054fb090c9c061d4114d37" }
+]
